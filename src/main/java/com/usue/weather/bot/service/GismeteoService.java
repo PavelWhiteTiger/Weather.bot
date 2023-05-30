@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 @Service
 public class GismeteoService implements WeatherService {
-    private WeatherConfig config;
+    private final WeatherConfig config;
 
     public GismeteoService(WeatherConfig config) {
         this.config = config;
